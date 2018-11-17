@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family: 'Comfortaa', cursive;
+	padding: 0;
+	margin: 0;
+}
+
+#divContenedor {
+	height: auto;
+	margin:0 auto;
+}
+
+.izquierda{
+	width: 30%;
+	float: left;
+	background: red;
+}
+
+.izquierda img{
+	width: 100%;
+}
+#divEncabezado {
+	width: 113%;
+	background-image: url('../Recursos/logolang.jpeg');
+	background-size: cover;
+	height: 210px;
+	text-align: center;
+	position: relative;
+}
+
+.txt_encabezado{
+	color:#FFF;
+	font-size: 40px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.3);
+}
+
+#divMenu {
+	width:1200px;
+}
+
+#divContenido {
+	overflow:auto;
+	padding: 10px 15px;
+	font-family: Lucida Sans Unicode, sans-serif;
+	height: auto;
+
+}
+
+.espacioSuperior, .pSecundaria{
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top center;
+}
+
+.fondoPsecundaria{
+  margin: 1em 0;
+  padding: 0 0 0 35%;
+  border-radius: 1em;
+  height: 80%;
+  width: auto;
+}
+.id{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background: #7A33FF;
+	color:#FFF;
+}
+#divPiePagina {
+	background-color: #7A33FF;
+	max-width: 1000px;
+	min-width: 1000px;
+	color:#FFF;
+}
+
+.texto {
+	font-family: Lucida Sans Unicode, sans-serif;
+	font-weight: bold;
+	color:#FFF;
+}
+
+.success, .danger{
+	color:#fff;
+	text-transform: uppercase;
+	padding: 8px;
+}
+
+.success{
+	background: green;
+}
+.danger{
+	background: red;
+}
+
+#login_{
+	width: 65px;
+	margin:auto;
+}
+
+.input{
+	padding: 8px;
+}
+
+.label{
+	padding: 8px;
+}
+
+.label_new{
+	text-transform: uppercase;	
+}
+
+#bt{
+	padding: 8px;
+}
+
+.btn_{
+	padding: 8px;
+	width: 150px;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+select{
+	padding: 8px;
+	widows: 300px;
+}
+
+#Sub_categoria{
+	padding: 8px;
+	widows: 300px;	
+}
+
+.menu_new, .menu_new_item{
+	font-size: 12px;
+
+}
+.menu_new a, .menu_new_item a{
+	color: #000;
+}
+.exit a{
+	color: #fff;
+}
+
+#img_post img{
+	width: 100%;
+}
+
+#footer_general{
+	background: #7A33FF;
+	color:#FFF;
+}
+
+.btn{
+	width: 300px;
+}
+
+.table_img_voc{
+	width: 80px;
+}
