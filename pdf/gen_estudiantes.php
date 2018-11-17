@@ -19,7 +19,7 @@ class PDF extends PDF_MySQL_Table
 }
 
 // Connect to database
-$link = mysqli_connect('localhost','root','alexisrhc','langapp');
+$link = mysqli_connect('localhost','root','','langapp');
 
 $pdf = new PDF( 'L', 'mm', 'A4' );
 //$pdf = new PDF();
